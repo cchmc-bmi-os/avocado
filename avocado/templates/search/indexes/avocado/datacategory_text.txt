@@ -1,0 +1,8 @@
+{{ object.name|default:"" }}
+{{ object.description|default:"" }}
+{{ object.keywords|default:"" }}
+{% if object.parent %}
+{{ object.parent.name|default:"" }}
+{{ object.parent.description|default:"" }}
+{{ object.parent.keywords|default:"" }}
+{% endif %}

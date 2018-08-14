@@ -1,0 +1,22 @@
+.DS_Store
+.coverage
+.watch-pid
+.sass-cache
+*.ipynb
+*.sw?
+*.py?
+docs/build
+MANIFEST
+dist
+docs/_build
+htmlcov
+
+# test output
+csv_export.csv
+json_export.json
+r_export.zip
+sas_export.zip
+profiled_tests.txt
+tests.db
+whoosh.index
+avocado.egg-info

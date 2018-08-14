@@ -1,0 +1,20 @@
+[run]
+branch = True
+source = avocado
+omit =
+    */admin.py
+    */migrations/*
+    avocado/query/parsers/__init__.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    def __str__
+    def __unicode__
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplemented(Error)?
+    if 0:
+    if __name__ == .__main__.:
